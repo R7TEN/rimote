@@ -5,8 +5,8 @@ import random as ra
 from pyrogram import Client, filters, errors
 from pyrogram.raw import functions, types
 
-bot_token = " ((((TOKEN)))) "
-sudo = [ ((((ID ADMIN)))) ]
+bot_token = "8460243173:AAG4OWkmIxG_zw1zIdPm4W-sZswifrJHDEU"
+sudo = [8139598502]
 login_temp_list = {}
 
 if not os.path.isdir('Rimots') : os.mkdir('Rimots')
