@@ -90,7 +90,12 @@ Group super <code>/run</code> -100 ID
 <code>/set</code> (reply on photo) 
 
 
-support : @Chmeist _ @liknat''', reply_to_message_id=message.message_id, parse_mode='html')
+await client.send_message(
+chat_id=message.chat.id,
+text="support : @Chmeist _ @liknat",
+reply_to_message_id=message.id,
+parse_mode='html'
+)
 
 
 #account............................
